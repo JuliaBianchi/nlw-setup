@@ -23,6 +23,18 @@ app.register(cors)
  * UUID - ID único pra cada informação na aplicação
  * npx prisma studio - interface pra acessar o banco de dados
  * CORS - quais aplicações vão acessar os dados da aplicação backend, importar do FASTIFY
+ * 
+ * Front-end
+ * 
+ * Vite
+ * esbuild - build de forma automática
+ * suporte ao ts, tsx
+ * npm create vite@latest - nome ao projeto e seleciona as linguagens
+ * npm install - instalar as dependências de desenvolvimento
+ * npm run dev - vai indicar o endereço e trazer a página inicial do Vite + React
+ * Biblioteca pra construção de interfaces do usuário
+ * Componente: reaproveitar / isolar
+ *  Propriedade: Uma informação enviada pra modificar um componente visual ou comportamentalmente.
  */
 
 app.get('/habits', async () => {
